@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Transaction Receipt</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+.receipt {
+    max-width: 600px;
+    background: #fff;
+    padding: 25px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+h1, h2 {
+    text-align: center;
+}
+.field {
+    margin-bottom: 12px;
+}
+.line {
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    width: 100%;
+}
+.signatures {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.note {
+    font-style: italic;
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="receipt">
+    <h1>BECKODY (AND STUFF)</h1>
+    <h2>Transaction Receipt</h2>
+
+    <p>Serial No: __________</p>
+    <p>Date: __________</p>
+    <p>Contact: __________</p>
+
+    <div class="field">Customer’s Name: <span class="line"></span></div>
+    <div class="field">Service Rendered: <span class="line"></span></div>
+    <div class="field">Amount Paid: <span class="line"></span></div>
+
+    <p>☐ Installment (Balance ₦ ________)<br>
+       ☑ Full Payment</p>
+
+    <p class="note">Note: No refund of payment.</p>
+
+    <div class="signatures">
+        <span>Customer Signature</span>
+        <span>Management Signature</span>
+    </div>
+</div>
+
+</body>
+</html>
